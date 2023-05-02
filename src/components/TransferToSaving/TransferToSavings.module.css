@@ -1,0 +1,29 @@
+.transfer__saving {
+  margin-top: 1.5em;
+}
+
+.transfer__saving form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.transfer__saving input {
+  padding: 0.5em 0.5em;
+  font-size: 1em;
+}
+
+.transfer__saving label {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.transfer__saving__btn {
+  cursor: pointer;
+  background-color: rgba(17, 136, 233, 0.719);
+  border: none;
+  margin-top: 0.5em;
+  color: white;
+}

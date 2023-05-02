@@ -1,0 +1,7 @@
+.expense__history {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  padding-top: 1em;
+  color: rgba(158, 51, 51, 0.8);
+}

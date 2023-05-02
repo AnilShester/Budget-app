@@ -1,0 +1,7 @@
+.income__history {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  padding-top: 1em;
+  color: rgba(20, 141, 28, 0.8);
+}

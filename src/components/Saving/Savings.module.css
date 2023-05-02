@@ -1,0 +1,31 @@
+.savings {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 0.5em;
+}
+
+.savings input {
+  height: 2.2em;
+  padding: 0.3em 0.5em;
+  font-size: 1em;
+}
+
+.savings label {
+  font-weight: bold;
+}
+
+.savings button {
+  padding: 0.3em 0;
+  font-size: 1em;
+}
+
+.savings p {
+  font-size: 1.2em;
+}
+
+.savings span {
+  font-weight: bold;
+  color: rgba(17, 136, 233, 0.719);
+  font-size: 1.1em;
+}

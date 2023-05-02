@@ -1,0 +1,22 @@
+.income__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.income__form label {
+  font-weight: bold;
+}
+
+.income__form input {
+  height: 2.2em;
+  padding: 0.3em 0.5em;
+  font-size: 1em;
+}
+
+.add__income__btn {
+  cursor: pointer;
+  background-color: rgba(20, 156, 81, 0.5);
+  border: none;
+  margin-top: 0.5em;
+}
