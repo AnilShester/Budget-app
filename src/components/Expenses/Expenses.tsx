@@ -24,7 +24,7 @@ const Expenses: React.FC<ExpenseProps> = ({
         setAmount(0)
         setDate('')
       } else {
-        alert('Your balance is too low.')
+        alert('Insufficient balance.')
       }
     } else {
       alert('Input all the expense data')
