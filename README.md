@@ -1,32 +1,46 @@
-# Getting Started with React Components & React Hooks
+# Introduction
 
-This assignment requires also TypeScript when passing props to React Components
+This repo contains code for budget app using React and Typescript.
 
-## Requirements
+Test: https://coruscating-heliotrope-9b7392.netlify.app
 
-1. Create a simple one-page application to store incomes and expenses, and set
-saving target.
-2. Account balance can be calculated from incomes, expenses, and saving.
-`incomes - expenses - saving = balance`
-3. Users should be able to add new incomes, expenses, transfer from balance account to saving account, and reset saving target. Balance should never be negative number.
-4. Use React Hooks where applicable. TypeScript must be used at least for the props types.
-5. Style is not the priority in this assignment.
+# Table of content
 
-## Bonus point
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
 
-1. Add function to transfer money back from saving account to current balance.
-2. Set source of incomes and expenses as the select elements with the categories of your choice.
-3. Add edit/delete button and according functions for incomes and expenses.
-4. Use `d3` package to print out 2 piecharts for incomes and expenses in categories (I only give bonus point when you use `d3`, not the other handier libraries).
+## Technologies
 
-## References
+- TypeScript
+- React
+- HTML
+- CSS
 
-Be creative with your style!
+## Project Structure
 
-![demo1](demo1.png)
----
+```
+├───public
+└───src
+    ├── App.css
+    ├── App.test.tsx
+    ├── App.tsx
+    ├── index.tsx
+    ├── react-app-env.d.ts
+    ├── reportWebVitals.ts
+    ├── setupTests.ts
+    └───components
+        ├───ExpenseHistory
+        ├───Expenses
+        ├───Income
+        ├───IncomeHistory
+        ├───Saving
+        ├───TotalBalance
+        └───TransferToSaving
 
-![demo2](demo2.png)
----
+```
 
-![demo3](demo3.png)
+# Getting Started
+
+1. Use <code>git clone</code> and <code>npm i</code> to install the project.
+2. Refer to <code>package.json</code> for scripts to run. Use<code>npm run start</code> to run in dev mode
